@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+.log{
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  
+}
+.ul-list{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.ul-list li a{
+    text-decoration: none; 
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    
+}
+.ul-list li{
+    list-style: none;
+}
+
+
+
+
+/* banner section */
+
+.banner{
+    width: 98%;
+    margin: auto;
+    margin-top: 4rem;
+    display: grid;
+    grid-gap: 0.5rem;
+    border-bottom: 4px dotted red;
+   
+  
+}
+
+.banner-card{
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 2;
+   
+    
+}
+.banner-text{
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    left: 5%;
+    margin: auto;
+   
+}
+
+.banner-text p{
+   font-weight: bolder;
+   font-size: 2rem;
+    color: white;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.banner-text span{
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-weight: bolds;
+    text-shadow: 2px 2px #ff0000;;
+    border-bottom: 2px solid red;
+    
+}
+.banner-img{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    grid-gap: 0.5rem;
+    margin-bottom: 4rem;
+}
+.img-1{
+    
+    grid-row: 1;
+    grid-column: 1; 
+}
+.img-2{
+    grid-row: 1;
+    grid-column: 2;  
+}
+.img-3{
+  
+   
+    grid-row: 2;
+    grid-column: 1;  
+}
+.img-4{
+     
+    grid-row: 2;
+    grid-column: 2; 
+}
+
+
+/* men product */
+
+
+.men-top-heading{
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+}
+.men-top-heading h2{
+    font-size: 3.5rem;
+   
+}
+.men-top-heading em{
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: bold;
+  
+   
+}
+.men{
+    display: grid;
+    border-bottom: 4px dotted red;
+}
+.women{
+    display: grid;
+    border-bottom: 4px dotted red;
+}
+.men-img{
+    display: grid;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.men-img1{
+    grid-row: 1;
+    grid-column: 1;
+}
+.men-img2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.men-img1{
+    grid-row: 1;
+    grid-column: 3;
+}
+.men-img-text{
+    margin-top: 1rem;
+}
+
+ /* Explore producta page start  */
+ 
+.explore{
+   
+    display: grid;
+     padding-top: 5rem;
+    }
+.explore-products{
+    grid-row: 1;
+    grid-column: 1;
+    align-items: center;
+    width: 90%; 
+    background-image: url("./Images/bg-picture.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+      
+  
+}
+.explore-products h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.explore-products-img{
+    grid-row: 1;
+    grid-column: 2;
+}
+ .explore-products-img{
+    display: grid;
+    gap: 0.5rem;
+ }
+ .explore-products-img .img1{
+    grid-row: 1;
+    grid-column: 2;
+ }
+ .explore-products-img .div1{
+    grid-row: 1;
+    grid-column: 1;
+ }
+ .explore-products-img .img2{
+    grid-row: 2;
+    grid-column: 1;
+ }
+ .explore-products-img .div2{
+    grid-row: 2;
+    grid-column: 2;
+ }
+
+ .div1{
+    background-color: #dbdbdb ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .div1 span{
+    font-size: 2rem;
+    font-weight: bolder;
+ }
+ .div1 em{
+    color: grey;
+ }
+ .div2{
+    background-color: #dbdbdb ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .div2 span{
+    font-size: 2rem;
+    font-weight: bolder;
+ }
+ .div2 em{
+    color: grey;
+ }
+
+ .explore-products .p1{
+  font-family: serif;
+    text-align: justify;
+    color: #757a79;
+    
+    
+ }
+ .comma{
+    display: flex;
+    align-items: center; }
+ .comma span{
+    font-size: 8rem;
+    padding-top: 3.5rem;
+    font-family: serif;
+    
+ }
+ .comma em{
+  font-size: 1.5rem;
+  color: black;
+  margin-left: 1rem;
+    
+ }
+
+ .explore-products .p2{
+    margin-top: -0.5rem;
+    text-align: justify;
+    color: #757a79;
+    margin-bottom: 1rem;
+    font-family: serif;
+ }
+ .explore-products .p3{
+    margin-top: 2rem;
+    text-align: justify;
+    color: #757a79;
+    font-family: serif;
+ }
+ .explore-products button {
+    margin-top: 2rem;
+    padding: 0.7rem 1.5rem;
+    border: 2px solid grey;
+    color: #be3737;
+    font-weight: bold;
+    transition: border-color 0.3s ease; 
+}
+
+.explore-products button:hover {
+    border-color: #be3737; 
+}
+.horizontal-line{
+    border-bottom: 4px dotted red;
+    margin-top: 6rem;
+}
+ /* Explore producta page end  */
+
+
+/* footer page start */
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.footer-section-second-div{
+    display: grid;
+}
+
+.footer-section-second-div1{
+    grid-row: 1;
+    grid-column: 1;
+   
+    width: 80%;
+    height: 80%;
+}
+.footer-section-second-div2{
+    grid-row: 1;
+    grid-column: 2;
+      width: 85%;
+      height: 80%; 
+}
+.footer-section-second-div3{
+    grid-row: 2;
+    grid-column: 1;
+      width: 80%;
+      height: 80%;
+}
+.footer-section-second-div4{
+    grid-row: 2;
+    grid-column: 2;
+      width: 80%;
+      height: 80%;
+}
+.footer-section-second-div5{
+    grid-row: 3;
+    grid-column: 1;
+      width: 80%;
+      height: 80%;
+}
+.footer-section-second-div6{
+    grid-row: 3;
+    grid-column: 2;
+      width: 80%;
+      height: 80%;
+}
+.footer-section-second-div span{
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.footer-section-second-div p{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    color: grey;
+
+}
+.footer-section-first-div-text h5{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.footer-section-first-div-text em{
+   color: grey;
+   font-size: 1.2rem;
+   padding-top: 2rem;
+   
+}
+
+.footer-section-first-div-text{
+    margin-bottom: 2rem;
+}
+.footer-section-first-div-input{
+    display: flex;
+    gap: 1rem;
+}
+.footer-section-first-div-input input{
+    padding: 0.8rem 3rem 0.8rem 3rem;
+}
+.footer-section-first-div-input .telligram-icon{
+    font-size: 3rem;
+    
+}
+.Social-media-icon{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    margin-left: 5px;
+    
+}

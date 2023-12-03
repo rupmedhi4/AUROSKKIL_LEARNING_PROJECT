@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+
+}
+.menu-link{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.menu-link:hover{
+    color: peru;
+    text-decoration: underline;
+}

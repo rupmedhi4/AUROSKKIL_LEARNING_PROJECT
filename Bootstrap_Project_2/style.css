@@ -82,3 +82,22 @@ a{
   
     
 }
+.custom-about{
+  margin-top: 8rem;
+}
+.about-text{
+  color: #f34949;
+}
+.h3-text{
+  color: #000;
+}
+.span-para{
+  color: grey;
+text-align: justify;
+}
+.custom-margin{
+  margin-top: 8rem;
+}
+.recipe-m{
+  margin-right: 0.5rem;
+}

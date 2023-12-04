@@ -41,3 +41,44 @@ a{
 .custom-mg{
     margin-top: 10%;
 }
+
+/* hero sectiom */
+.custom-hover:hover{
+   color: red;
+   transition: 1s;
+   cursor: pointer;
+}
+.custom-border{
+   
+    border-right:1px solid rgb(207, 175, 175) ;
+    padding-right: 4% ;
+    padding-left: 4% ;
+}
+
+.custom-hero-bg1{
+    background-image: url(./Images/hero-1.jpeg);
+    height: 60vh;
+    width: 100vw;
+     background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+ 
+    
+}
+.custom-hero-bg2{
+    background-image: url(./Images/hero-2.jpeg);
+ height: 60vh;
+ width: 100vw;
+     background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+
+    
+}
+.custom-hero-bg3{
+    background-image: url(./Images/hero-3.jpeg);
+ height: 60vh;
+ width: 100vw;
+     background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  
+    
+}

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-family: serif;
+    margin: 0.5rem;
+  
+}
+.navbar-nav li{
+    font-size: 1.5rem;
+}
+.custom-bg1{
+    background-image: url(./Images/slide_1.jpeg);
+    height: 100vh;
+     background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+ 
+    
+}
+.custom-bg2{
+    background-image: url(./Images/slide_2.jpeg);
+    height: 100vh;
+     background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+
+    
+}
+.custom-bg3{
+    background-image: url(./Images/slide_3.jpeg);
+    height: 100vh;
+     background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  
+    
+}
+.custom-font-size{
+    font-size: 7rem;
+}
+.custom-mg{
+    margin-top: 10%;
+}

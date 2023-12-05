@@ -101,3 +101,46 @@ text-align: justify;
 .recipe-m{
   margin-right: 0.5rem;
 }
+
+/* speciality page css */
+.margin-custom{
+  margin-top: 6rem;
+}
+.bg-grey{
+  background-color: #f7f8f9;
+}
+.special-number{
+  font-size: 60px;
+  font-weight: 700
+}
+.speciality-content{
+  margin-left: 7rem;
+  padding-top: 2rem;
+}
+
+.speciality-content h4{
+ font-size: 1.75rem;
+ font-weight: 400;
+}
+.speciality-content span{
+ font-size: 1.75rem;
+ font-weight: 400;
+}
+.speciality-img{
+  padding-left: 7rem;
+}
+.speciality-img2{
+  padding-left: 1.5rem;
+}
+.speciality-content2{
+  padding: 3rem;
+}
+.special-number2{
+  font-size: 60px;
+  font-weight: 700
+
+}
+.div2-speciality{
+  margin-top: 3rem;
+ margin-left: 3rem;
+}

@@ -203,15 +203,49 @@ margin-top: 9rem;
 .gridContainer img:hover{
   transform: scale(1.07);
 }
-.grid-menu{
+/* .grid-menu{
   background-image: url(./Images/bg-menu.png);
   background-repeat:repeat-x;
   z-index: -1;
-}
+} */
 
-
+/* 
 .card-bg{
   background-image: url(./Images/bg-card.png);
   background-repeat:no-repeat
 
+} */
+
+/* yummy itesm */
+.custom-mr{
+  margin-right: 1rem;
 }
+
+li{
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+li a:hover{
+  color: peru;
+  text-decoration: underline;
+}
+.custom-mw{
+  padding: 1rem 5rem 1rem 5rem;
+  margin-top: 100%;
+}
+
+.custom-gap{
+  margin-right: 1rem;
+}
+
+.custom-justify{
+  text-align: justify;
+}
+
+
+
+
+/* footer page start */
